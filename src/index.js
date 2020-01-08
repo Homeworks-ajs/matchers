@@ -1,4 +1,4 @@
-import { default as colourHealth } from './js/script';
+import { default as sortParams } from './js/script';
 import { default as params } from './js/param';
 
-colourHealth(params);
+console.table(sortParams(params));
